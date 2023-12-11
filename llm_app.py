@@ -1,5 +1,5 @@
 import os
-##import key
+import key
 import streamlit as st
 import openai
 from langchain.llms import OpenAI
@@ -25,7 +25,7 @@ from langchain.chains import RetrievalQA
 #Using ChatOpenAI
 from langchain.chat_models import ChatOpenAI            #used for GPT3.5/4 model
 
-##apikey = key.OPENAI_API_KEY
+pikey = key.OPENAI_API_KEY
 os.environ["OPENAI_API_KEY"] = "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"
 st.title("Whatsapp Bot Generator")
 biz_info=""
